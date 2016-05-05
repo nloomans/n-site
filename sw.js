@@ -7,7 +7,6 @@ var thingsToCache = [
   '/n-site/',
   '/n-site/index.html',
   '/n-site/style/main.css',
-  '/n-site/font-awesome/css/font-awesome.min.css',
   '/n-site/script.js'
 ];
 
