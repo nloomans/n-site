@@ -1,0 +1,89 @@
+$color-primary: #FFEB3B;
+$color-primary-dark: #FBC02D;
+$color-primary-light: #FFF9C4;
+$color-accent: #FF5252;
+$color-text: #212121;
+$color-text-secondary: #727272;
+$color-divider: #B6B6B6;
+
+@import 'logo';
+@import 'card';
+@import 'snackbar';
+
+* {
+  box-sizing: border-box;
+}
+
+.grow {
+  flex-grow: 1;
+}
+body {
+  background-color: $color-primary;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  color: $color-text;
+}
+
+.site-header {
+  margin: {
+    top: 50px;
+    bottom: 30px;
+  }
+  .logo {
+    margin: {
+      left: auto;
+      right: auto;
+    }
+  }
+}
+
+.container {
+  flex-grow: 1;
+  border-radius: 2px;
+  display: inline-block;
+  margin: {
+    left: 30px;
+    right: 30px;
+  }
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content {
+  margin: 0 15px;
+}
+
+nav {
+  ul {
+    display: flex;
+    padding: 0;
+    padding-left: 10px;
+    margin: 0;
+    border-bottom: 1px solid $color-divider;
+    li {
+      list-style: none;
+      a {
+        padding: 16px 5px;
+        display: block;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 500;
+        color: $color-text;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    margin: 0;
+    border-radius: 0px;
+  }
+}
