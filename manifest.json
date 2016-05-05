@@ -1,6 +1,6 @@
 {
   "short_name": "N App",
   "name": "Noah's Amazing Application",
-  "display": "standalone",
+  "display": "browser",
   "orientation": "portrait"
 }
