@@ -1,7 +1,7 @@
 {
   "short_name": "N App",
   "name": "Noah's Amazing Application",
-  "start_url": "/",
+  "start_url": "/n-site/",
   "display": "standalone",
   "orientation": "portrait"
 }
