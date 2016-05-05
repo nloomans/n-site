@@ -4,11 +4,11 @@
 var cacheName = 'n site v1';
 
 var thingsToCache = [
-  '/',
-  '/index.html',
-  '/style/main.css',
-  '/font-awesome/css/font-awesome.min.css',
-  '/script.js'
+  '/n-site/',
+  '/n-site/index.html',
+  '/n-site/style/main.css',
+  '/n-site/font-awesome/css/font-awesome.min.css',
+  '/n-site/script.js'
 ];
 
 self.addEventListener('install', function(e) {
